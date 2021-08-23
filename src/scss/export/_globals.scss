@@ -11,13 +11,20 @@ html {
 body {
     font-family: $normal;
     font-size: 1.6rem;
-    background-color: #f2f2f2;
+    background-color: $Pale-blue;
+    background-image: url("../img/pattern-background-desktop.svg");
+    background-size: 100vw 40vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 p {
     font-size: 1.6rem;
 }
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
